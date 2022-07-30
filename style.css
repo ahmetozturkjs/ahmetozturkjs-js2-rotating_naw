@@ -1,0 +1,84 @@
+
+*{
+    overflow-x: hidden;
+}
+#colbuttunid{
+    height: 15rem;
+    width: 15rem;
+    top:-9rem;
+    left: -9rem;
+    z-index: 9999;
+    transition:  transform 1s linear;
+    
+
+}
+.donusbuton{
+    transform: rotate(-80deg);
+    transition:  transform 1s linear;
+}
+
+
+
+/* ----content--- */
+#contentcontainer{
+    padding-top: 3rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    height: 100%;
+    transition:  transform 1s linear;
+    transform-origin: top left; 
+}
+#sectioncontentid{      
+    z-index: 11;
+    position: relative; 
+    
+}
+
+#sectioncontentid .row h1,h2{
+    overflow-y: hidden; 
+}
+
+.donus{
+    transition: transform 1s linear;
+    transform-origin: top left;
+    transform: rotate(-20deg)
+}
+
+/* ----menu---- */
+#menuid{
+    text-transform: uppercase;
+   
+    position: fixed;
+    left: 0rem;
+    top: 30rem;
+   
+    
+}
+
+#menuid li a{
+    text-decoration: none;
+    color: whitesmoke;
+    overflow-x: hidden;
+    
+}
+
+
+#menuid li a:hover{
+    color: red;
+    font-size: large;
+}
+
+.bgyesil{
+    background-color: aquamarine!important;
+}
+.zindex{
+    z-index: 4444;
+}
+.menugerirem{
+    transform: translateX(0px);
+    transition: transform 1s linear;
+}
+.menuilerirem{
+    transform: translateX(10rem);
+    transition: transform 1s linear;  
+}
